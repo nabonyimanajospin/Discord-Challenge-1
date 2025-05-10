@@ -1,5 +1,4 @@
 
-````markdown
 # Discord Challenge - Order Summary Component
 
 Welcome to my solution for the Frontend Mentor Discord Challenge! 🎉
@@ -37,7 +36,6 @@ This challenge involved building a responsive order summary card using static de
 1. Clone the repository:
    ```bash
    git clone https://github.com/nabonyimanajospin/Discord-Challenge-1.git
-````
 
 2. Navigate into the project directory:
 
@@ -66,5 +64,3 @@ If you have any feedback or suggestions, feel free to open an issue or contact m
 * [LinkedIn](https://www.linkedin.com/in/jospin-nabonyimana-88497232a/)
 
 Thanks for checking out my project! 😄
-
-````
