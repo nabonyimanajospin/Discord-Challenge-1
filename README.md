@@ -9,7 +9,7 @@ This is the Order Summary Card component built using **HTML** and **CSS**. The g
 
 ## 🚀 Demo
 
-You can view the live project here: [Live Demo](#) *(replace with your live link if deployed)*
+You can view the live project here: [Live Demo](http://127.0.0.1:5501/index.html)
 
 ## 📄 Overview
 
