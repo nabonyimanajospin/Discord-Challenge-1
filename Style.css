@@ -1,0 +1,139 @@
+/* Reset & Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url('images/pattern-background-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  body {
+    background-image: url('images/pattern-background-desktop.svg');
+  }
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 375px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.hero-img {
+  width: 100%;
+  display: block;
+}
+
+.card-body {
+  padding: 30px;
+  text-align: center;
+}
+
+.card-body h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.plan {
+  background: hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.plan img {
+  width: 40px;
+  height: 40px;
+}
+
+.plan-info {
+  text-align: left;
+  margin-left: 15px;
+  flex-grow: 1;
+}
+
+.plan-info strong {
+  display: block;
+  color: hsl(223, 47%, 23%);
+  font-size: 14px;
+}
+
+.plan-info span {
+  color: hsl(224, 23%, 55%);
+  font-size: 13px;
+}
+
+.change-link {
+  font-size: 13px;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+
+.change-link:hover {
+  color: hsl(245, 65%, 65%);
+}
+
+.proceed-btn {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.proceed-btn:hover {
+  background-color: hsl(245, 65%, 65%);
+}
+
+.cancel-btn {
+  background: none;
+  color: hsl(224, 23%, 55%);
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
